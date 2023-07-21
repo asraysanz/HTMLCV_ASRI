@@ -40,18 +40,18 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("orchestrator").getContext("2d")).Doughnut(doughnutData);
+  //var myDoughnut = new Chart(document.getElementById("orchestrator").getContext("2d")).Doughnut(doughnutData);
 
-  // WordPress Chart
-  var doughnutData = [{
-    value: 80,
-    color: "#1abc9c"
-  },
-  {
-    value: 20,
-    color: "#ecf0f1"
-  }
-  ];
+  //// WordPress Chart
+  //var doughnutData = [{
+  //  value: 80,
+  //  color: "#1abc9c"
+  //},
+  //{
+  //  value: 20,
+  //  color: "#ecf0f1"
+  //}
+  //];
   var myDoughnut = new Chart(document.getElementById("sqlserver").getContext("2d")).Doughnut(doughnutData);
 
   // HTML Chart

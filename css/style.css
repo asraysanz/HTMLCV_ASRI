@@ -156,22 +156,23 @@ SECTION WRAPS
 /* Header Wrap */
 
 #headerwrap {
-  background: url(../img/abc.jpg) no-repeat center top;
-  margin-top: 60px;
-  padding-top: 140px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../img/s.jpg), url(../img/abc.jpg);
+    margin-top: 60px;
+    padding-top: 140px;
+    text-align: center;
+    background-attachment: relative;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 500px, 300px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
 }
 
 #headerwrap h1 {
